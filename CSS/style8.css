@@ -1,0 +1,26 @@
+div{
+    width: 400px;
+    height: 400px;
+    background-color: orange;
+    margin: auto;
+    margin-top: 50px;
+
+    /* SOMBRAS SENCILLAS */
+    box-shadow: 5px 5px 10px 0px red;
+
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+    /* SOMBRAS MULTIPLES */
+    box-shadow: 2px 2px 0 5px rgb(24, 4, 4),
+    6px 6px 2px 10px #777,
+    12px 12px 8px 20px #444;
+}
+
+h1{
+    text-align: center;
+    margin-top: 120px;
+    font-size: 80px;
+    text-shadow: 5px 5px 5px rgb(99,99,99)
+}

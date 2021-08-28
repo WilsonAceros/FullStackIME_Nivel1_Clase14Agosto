@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+
+@font-face{
+    font-family: 'Bebas Neue', cursive;
+    src: url(Archivos\BebasNeue-Regular.ttf);
+}
+h1{
+    font-family: sans-serif;
+}
+
+#pa1{
+    font-family: 'MonteCarlo', cursive;
+}
+
+#pa2{
+    font-family: 'Bebas Neue', cursive;
+}

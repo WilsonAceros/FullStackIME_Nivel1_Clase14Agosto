@@ -1,0 +1,29 @@
+
+/* Selector Universal */
+*{
+    background: rgb(240, 236, 236);
+
+    /* Esta etiqueta hace que todo sea color rojo */
+    /* color: red !important; */
+}
+
+h1{
+    color: blueviolet;
+}
+
+#primerparrafo{
+    color: green;
+}
+
+.grupodeparrafos{
+    color: chocolate;
+}
+
+/* Hover cambiar la caracteristca del elemento cuando pongo el puntero  */
+h1:hover{
+    color: black;
+}
+
+input[type="text"]{
+    background: blue;
+}

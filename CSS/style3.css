@@ -1,0 +1,16 @@
+#contenedor p{
+    color: yellowgreen;
+}
+
+/* Modifica el primer hijo del contenedor que corresponde al primer parrafo */
+#contenedor p:first-child{
+    color: blue;
+}
+
+#contenedor p:nth-child(2){
+    color: red;
+}
+
+#contenedor p:last-child{
+    color: purple;
+}

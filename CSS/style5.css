@@ -1,0 +1,28 @@
+h1{
+    font-size: 50px;
+    font-weight: 900;
+    font-style: italic;
+    cursor: pointer;
+
+    /* espaciar letras */
+    letter-spacing: 20px;
+
+    /* espaciar palabras */
+    word-spacing: 30px;
+
+    /* interlineado */
+    line-height: 200px;
+
+    /* sangria */
+    *text-indent: 100px;
+
+    /* alineacion texto */
+    text-align: center;
+
+    /* mayusculas y minuscul]as */
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+
+
+}
