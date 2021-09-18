@@ -1,0 +1,40 @@
+.grid{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas:    "header header header"
+                            "sidebar1 contenido sidebar2"
+                            "sidebar1 widget sidebar2"
+                            "footer footer footer";
+}
+
+.grid .header{
+    background-color: orange;
+    grid-area: header;
+}
+
+.grid .sidebar1{
+    background-color: blueviolet;
+    grid-area: sidebar1;
+}
+
+.grid .contenido{
+    background-color: green;
+    grid-area: contenido;
+}
+
+.grid .widget{
+    background-color: violet;
+    grid-area: widget;
+}
+
+.grid .sidebar2{
+    background-color: red;
+    grid-area: sidebar2;
+}
+
+.grid .footer{
+    background-color: blue;
+    grid-area: footer;
+}

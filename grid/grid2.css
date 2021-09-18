@@ -1,0 +1,28 @@
+.grid{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.grid .element{
+    background-color: magenta;
+
+    grid-column-start: 1;
+    grid-column-end: -1;
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    /* Con una sola linea se puede ubicar tambien */
+    /* grid-column: 3/5; */
+    /* grid-row: 3/5; */
+
+    /* Tambien en una sola linea se puede poner desde donnde comienza hasta donde va el area ocuapción. */  
+    /* grid-area: 1/ 2 / 4 / 5; */
+
+    grid-column: span 4;
+    grid-row: 2 / span 3;
+
+    
+}

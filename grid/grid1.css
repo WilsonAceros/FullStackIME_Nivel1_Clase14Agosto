@@ -1,0 +1,23 @@
+.grid{
+    display: grid;
+    /* se divide en tres fracciones */
+    grid-template-columns: 1fr 1fr 1fr;
+
+    /* se divide en 4 fracciones, la segunda vale 2 unidades */
+    grid-template-columns: 1fr 2fr 1fr;
+    /* grid-template-rows: 200px 300px; */
+
+    /* grid-template-rows: 1fr 2fr; */
+    gap:20px;
+
+    /* Para utilizar en web responsive */
+    /* asigno un valor minimo de ancho a la columna cuando minimice, y maximo 1fr */
+    grid-template-columns: minmax(300px, 1fr) 1fr;
+
+    /* para seis columnas */
+    grid-template-columns: repeat(6,1fr);
+
+
+    /* dejo primer columna fija en 100px, y las demas en 1fr */
+    grid-template-columns: 100px repeat(5,1fr);
+}
