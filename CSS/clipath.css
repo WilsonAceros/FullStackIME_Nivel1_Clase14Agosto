@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #dddddd;
+    font-family: arial,sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: teal;
+    width: 40%;
+    border-radius: 15px;
+    height: 350px;
+    color: white;
+    clip-path: circle(10% at 0% 0%);
+    transition: all 1s;
+}
+
+.card:hover{
+    clip-path: circle(100%);
+}
+
+.card-header{
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+
+.card-contenido{
+    padding: 25px;
+}
+
+.card p{
+    padding: 15px;
+}
+
+.card-contenido button{
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px;
+    width: 150px;
+}
